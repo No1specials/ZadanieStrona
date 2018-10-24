@@ -37,6 +37,7 @@ margin: 1vw 1vw 0 1vw;
 
 .dancingFont {
     font-family: 'Dancing Script', cursive;
+    font-style: italic;
 }
 
 .playFair {
@@ -49,7 +50,6 @@ margin: 1vw 1vw 0 1vw;
 
 .mariaLanding {
     font-weight: 100;
-    font-style: italic;
 }
 
 .photographyLanding {
@@ -81,4 +81,40 @@ margin: 1vw 1vw 0 1vw;
 .arrowDown {
     position: absolute;
     bottom: 70px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding-left: 55px;
+    padding-right: 25px;
+    border-bottom-color: #ebebeb;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.nav ul {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.nav ul li {
+    list-style-type: none;
+    margin: 0 30px 0 30px;
+    font-weight: 500;
+    color: #696969;
+}
+
+.nav h1 {
+    color: #838181;
+    font-weight: 100;
+}
+
+.bottomWorks {
+    border-bottom-color: #d07c7c;
+    border-bottom-style: solid;
+    padding-bottom: 6px;
 }
