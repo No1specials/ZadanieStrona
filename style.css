@@ -118,3 +118,56 @@ margin: 1vw 1vw 0 1vw;
     border-bottom-style: solid;
     padding-bottom: 6px;
 }
+
+.littleText {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.textLittle {
+    margin-top: 140px;
+    color: #5a5957;
+    font-weight: 200;
+}
+
+.bottomLittle {
+    border-bottom-color: #d07c7c;
+    border-bottom-style: solid;
+    height: 3px;
+    width: 60px;
+    margin-top: 22px;
+}
+
+.loremText {
+    width: 750px;
+    height: 88px;
+    font-weight: 200;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 28px;
+}
+
+.worksText {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.works {
+    margin-top: 140px;
+    font-weight: 200;
+    font-size: 31px;
+    color: #5a5957;
+}
+
+.bottomWork {
+    border-bottom-color: #d07c7c;
+    border-bottom-style: solid;
+    height: 3px;
+    width: 65px;
+    margin-top: 10px;
+}
