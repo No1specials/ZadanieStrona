@@ -133,11 +133,10 @@ margin: 1vw 1vw 0 1vw;
 }
 
 .bottomLittle {
-    border-bottom-color: #d07c7c;
-    border-bottom-style: solid;
+    background-color: #d07c7c;
     height: 3px;
     width: 60px;
-    margin-top: 22px;
+    margin-top: 24px;
 }
 
 .loremText {
@@ -165,9 +164,151 @@ margin: 1vw 1vw 0 1vw;
 }
 
 .bottomWork {
-    border-bottom-color: #d07c7c;
-    border-bottom-style: solid;
+    background-color: #d07c7c;
     height: 3px;
     width: 65px;
     margin-top: 10px;
+}
+
+.tabela {
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nature {
+    background-image: url(zdj/nature.png);
+    width: 765px;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.corner1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.corner2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.corner3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.corner4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.natureText, .peopleText, .weddingText, .urbanText, .architectureText, .animalsText {
+    width: 205px;
+    height: 80px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    
+}
+
+.styledHeader h4 {
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.styledHeader h5 {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.tabelaBottom {
+    background-color: white;
+    height: 2px;
+    width: 140px;
+    margin: 10px 0 10px 0;
+}
+
+.people {
+    background-image: url(zdj/people.png);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 370px;
+    height: 362px;
+}
+
+.peopleWedding {
+    margin-top: 25px;
+    display: flex;
+}
+
+.wedding {
+    background-image: url(zdj/wedding.png);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 370px;
+    height: 362px;
+    margin-left: 25px;
+}
+
+.urban {
+    background-image: url(zdj/urban.png);
+    width: 440px;
+    height: 757px;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.architectureAnimals {
+    margin-top: 25px;
+    display: flex;
+}
+
+.architecture {
+    background-image: url(zdj/architecture.png);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 764px;
+    height: 362px;
+}
+
+.animals {
+    background-image: url(zdj/animals.png);
+    width: 440px;
+    height: 362px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-left: 25px;
+}
+
+.tabelaRow {
+    display: flex;
+}
+
+.animalsText  {
+    width: 340px;
+    height: 240px;
+
 }
