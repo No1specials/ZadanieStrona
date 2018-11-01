@@ -8,7 +8,7 @@
 
 body {
     margin: 0;
-    height: 400vh;
+    height: 600vh;
 }
 
 .website {
@@ -211,7 +211,7 @@ margin: 1vw 1vw 0 1vw;
     right: 0;
 }
 
-.natureText, .peopleText, .weddingText, .urbanText, .architectureText, .animalsText {
+.natureText, .peopleText, .weddingText, .urbanText, .architectureText, .animalsText, .corners, .line1, .line2 {
     width: 205px;
     height: 80px;
     position: relative;
@@ -220,7 +220,6 @@ margin: 1vw 1vw 0 1vw;
     flex-direction: column;
     display: flex;
     color: white;
-    
 }
 
 .styledHeader h4 {
@@ -310,5 +309,178 @@ margin: 1vw 1vw 0 1vw;
 .animalsText  {
     width: 340px;
     height: 240px;
+}
 
+.loadMore {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.loadMore button {
+    background-color: #d07c7c;
+    width: 200px;
+    height: 50;
+    margin-top: 80px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.seeText {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.theWorld {
+    margin-top: 140px;
+    color: #848282;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.seeBottom {
+    background-color: #d07c7c;
+    width: 32px;
+    height: 4px;
+    margin-top: 23px;
+}
+
+.seeLorem {
+    font-weight: 200;
+    width: 542px;
+    font-size: 18px;
+    color: #848282;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.johnText {
+    font-weight: 100;
+    font-size: 15px;
+    color: #a0a0a0;
+    margin-top: 30px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: #d3d3d3;
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.redDot {
+    background-color: #d07c7c;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.dots {
+    margin-top: 40px;
+}
+
+.watchPhoto {
+    background-image: url(zdj/Photocorner.png);
+    width: 100%;
+    height: 500px;
+    margin-top: 140px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.corners {
+    width: 68px;
+    height: 57px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cornerBlack1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cornerBlack2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cornerBlack3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.cornerBlack4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.line1 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.line2 {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+.watchMe {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.followMe {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.followText {
+    color: #5a5957;
+    margin-top: 140px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.bottomFollow {
+    background-color: #d07c7c;
+    width: 62px;
+    height: 4px;
+    margin-top: 23px;
+}
+
+.socialMedia {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 80px 50px 0 50px;
+}
+
+.architectureWhite {
+    background-image: url(zdj/Architecture-picture.png);
+    width: 100%;
+    height: 693px;
+    margin-top: 150px;
 }
