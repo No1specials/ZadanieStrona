@@ -49,11 +49,11 @@ body {
 
 .section-heading2 {
     font-family: 'Playfair Display', serif;
-    margin-top: 140px;
     font-weight: 200;
     font-size: 31px;
     color: #5a5957;
 }
+
 
 .section-heading {
     font-weight: 100;
@@ -67,18 +67,23 @@ body {
     font-size: 23px;
 }
 
-.see-landing {
+.landing .bottom-line {
     font-size: 50px;
     font-weight: 100;
     margin-top: 70px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.bottom-landing {
+.landing .bottom-line::after {
     background-color: white;
     height: 3px;
     width: 82px;
+    content: "";
+    position: absolute;
     margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 .lorem-landing {
@@ -142,6 +147,23 @@ body {
     align-items: center;
     flex-direction: column;
     display: flex;
+    margin-top: 140px;
+
+}
+
+.bottom-line {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-line::after {
+    background-color: #d07c7c;
+    height: 3px;
+    width: 60px;
+    margin-top: 24px;
+    position: absolute;
+    content: "";
 }
 
 .text-little {
@@ -151,28 +173,26 @@ body {
     font-size: 28px;
 }
 
-.bottom-little {
-    background-color: #d07c7c;
-    height: 3px;
-    width: 60px;
-    margin-top: 24px;
-}
-
 .lorem-text {
     width: 750px;
     height: 88px;
     font-weight: 200;
     font-size: 16px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 80px;
     line-height: 28px;
 }
 
-.works-text {
+.works {
     justify-content: center;
     align-items: center;
     flex-direction: column;
     display: flex;
+    margin-top: 140px;
+}
+
+.works .section-heading2  {
+    margin-bottom: 30px;
 }
 
 .bottom-work {
@@ -354,11 +374,8 @@ body {
     font-size: 28px;
 }
 
-.see-bottom {
-    background-color: #d07c7c;
+.see-text .bottom-line::after {
     width: 32px;
-    height: 4px;
-    margin-top: 23px;
 }
 
 .see-lorem {
@@ -475,6 +492,7 @@ body {
     justify-content: center;
     flex-direction: column;
     display: flex;
+    margin-top: 140px;
 }
 
 .follow-text {
@@ -482,13 +500,6 @@ body {
     margin-top: 140px;
     font-weight: 500;
     font-size: 25px;
-}
-
-.bottom-follow {
-    background-color: #d07c7c;
-    width: 62px;
-    height: 4px;
-    margin-top: 23px;
 }
 
 .social-media {
@@ -555,6 +566,7 @@ body {
     align-items: center;
     flex-direction: column;
     background-size: cover;
+    justify-content: center;
 }
 
 .form-contact {
@@ -581,19 +593,17 @@ body {
     color: #5a5957;
 }
 
-.bottom-contact {
-    background-color: #d07c7c;
-    width: 60px;
-    height: 3px;
-    margin-top: 25px;
-}
-
 .claritas-contact {
     font-size: 15px;
     font-weight: 200;
-    margin-top: 25px;
+    margin-top: 45px;
     color: #848282;
 }
+
+.contact-me .bottom-line::after {
+    margin-bottom: 25px;
+}
+
 .form-contact textarea {
     height: 135px;
     padding-top: 20px;
