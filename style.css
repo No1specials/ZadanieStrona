@@ -7,11 +7,7 @@
 }
 
 body {
-    margin: 0;
-}
-
-.website {
-margin: 1vw 1vw 0 1vw;
+    margin: 1vw 1vw 0 1vw;
 }
 
 .landing {
@@ -24,9 +20,6 @@ margin: 1vw 1vw 0 1vw;
     display: flex;
     flex-direction: column;
     background-position: 50% 50%;
-}
-
-.landingText {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -34,35 +27,35 @@ margin: 1vw 1vw 0 1vw;
     color: white;
 }
 
-.dancingFont {
+.dancing-font {
     font-family: 'Dancing Script', cursive;
     font-style: italic;
 }
 
-.playFair {
+.play-fair {
     font-family: 'Playfair Display', serif;
 }
 
-.ralewayFont {
+.raleway-font {
     font-family: 'Raleway', sans-serif;
 }
 
-.mariaLanding {
+.maria-landing {
     font-weight: 100;
 }
 
-.photographyLanding {
+.photography-landing {
     margin-bottom: 60px;
     font-weight: 100;
     font-size: 23px;
 }
 
-.seeLanding {
+.see-landing {
     font-size: 50px;
     font-weight: 100;
 }
 
-.bottomLanding {
+.bottom-landing {
     background-color: white;
     height: 3px;
     width: 82px;
@@ -70,14 +63,14 @@ margin: 1vw 1vw 0 1vw;
     margin-bottom: 30px;
 }
 
-.loremLanding {
+.lorem-landing {
     width: 445px;
     font-weight: 200;
     font-size: 16px;
     text-align: center;
 }
 
-.arrowDown {
+.arrow-down {
     position: absolute;
     bottom: 70px;
 }
@@ -120,33 +113,33 @@ margin: 1vw 1vw 0 1vw;
     font-weight: 100;
 }
 
-.bottomWorks {
+.bottom-works {
     border-bottom-color: #d07c7c !important;
     border-bottom-style: solid;
     padding-bottom: 6px;
 }
 
-.littleText {
+.little-text {
     justify-content: center;
     align-items: center;
     flex-direction: column;
     display: flex;
 }
 
-.textLittle {
+.text-little {
     margin-top: 140px;
     color: #5a5957;
     font-weight: 200;
 }
 
-.bottomLittle {
+.bottom-little {
     background-color: #d07c7c;
     height: 3px;
     width: 60px;
     margin-top: 24px;
 }
 
-.loremText {
+.lorem-text {
     width: 750px;
     height: 88px;
     font-weight: 200;
@@ -156,7 +149,7 @@ margin: 1vw 1vw 0 1vw;
     line-height: 28px;
 }
 
-.worksText {
+.works-text {
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -170,7 +163,7 @@ margin: 1vw 1vw 0 1vw;
     color: #5a5957;
 }
 
-.bottomWork {
+.bottom-work {
     background-color: #d07c7c;
     height: 3px;
     width: 65px;
@@ -218,7 +211,7 @@ margin: 1vw 1vw 0 1vw;
     right: 0;
 }
 
-.natureText, .peopleText, .weddingText, .urbanText, .architectureText, .animalsText, .corners {
+.nature-text, .people-text, .wedding-text, .urban-text, .architecture-text, .animals-text, .corners {
     width: 205px;
     height: 80px;
     position: relative;
@@ -229,17 +222,17 @@ margin: 1vw 1vw 0 1vw;
     color: white;
 }
 
-.styledHeader h4 {
+.styled-header h4 {
     font-weight: 300;
     font-size: 23px;
 }
 
-.styledHeader h5 {
+.styled-header h5 {
     font-weight: 300;
     font-size: 16px;
 }
 
-.tabelaBottom {
+.tabela-bottom {
     background-color: white;
     height: 2px;
     width: 140px;
@@ -256,7 +249,7 @@ margin: 1vw 1vw 0 1vw;
     height: 362px;
 }
 
-.peopleWedding {
+.people-wedding {
     margin-top: 25px;
     display: flex;
 }
@@ -283,7 +276,7 @@ margin: 1vw 1vw 0 1vw;
     display: flex;
 }
 
-.architectureAnimals {
+.architecture-animals {
     margin-top: 25px;
     display: flex;
 }
@@ -309,23 +302,23 @@ margin: 1vw 1vw 0 1vw;
     margin-left: 25px;
 }
 
-.tabelaRow {
+.tabela-row {
     display: flex;
 }
 
-.animalsText  {
+.animals-text  {
     width: 340px;
     height: 240px;
 }
 
-.loadMore {
+.load-more {
     align-items: center;
     justify-content: center;
     flex-direction: column;
     display: flex;
 }
 
-.loadMore button {
+.load-more button {
     background-color: #d07c7c;
     width: 200px;
     height: 50;
@@ -335,28 +328,28 @@ margin: 1vw 1vw 0 1vw;
     font-size: 16px;
 }
 
-.seeText {
+.see-text {
     align-items: center;
     justify-content: center;
     flex-direction: column;
     display: flex;
 }
 
-.theWorld {
+.the-world {
     margin-top: 140px;
     color: #848282;
     font-weight: 300;
     font-size: 28px;
 }
 
-.seeBottom {
+.see-bottom {
     background-color: #d07c7c;
     width: 32px;
     height: 4px;
     margin-top: 23px;
 }
 
-.seeLorem {
+.see-lorem {
     font-weight: 200;
     width: 542px;
     font-size: 18px;
@@ -365,7 +358,7 @@ margin: 1vw 1vw 0 1vw;
     margin-top: 50px;
 }
 
-.johnText {
+.john-text {
     font-weight: 100;
     font-size: 15px;
     color: #a0a0a0;
@@ -384,7 +377,7 @@ margin: 1vw 1vw 0 1vw;
     transition: all 1s;
 }
 
-.redDot {
+.red-dot {
     background-color: #d07c7c;
     width: 20px;
     height: 20px;
@@ -402,7 +395,7 @@ margin: 1vw 1vw 0 1vw;
     height: 20px;
 }
 
-.watchPhoto {
+.watch-photo {
     background-image: url(zdj/Photocorner.png);
     width: 100%;
     height: 500px;
@@ -423,25 +416,25 @@ margin: 1vw 1vw 0 1vw;
     display: flex;
 }
 
-.cornerBlack1 {
+.corner-black1 {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.cornerBlack2 {
+.corner-black2 {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.cornerBlack3 {
+.corner-black3 {
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.cornerBlack4 {
+.corner-black4 {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -459,41 +452,41 @@ margin: 1vw 1vw 0 1vw;
     left: 520px;
 }
 
-.watchMe {
+.watch-me {
     margin-top: 25px;
     font-weight: 500;
     font-size: 16px;
 }
 
-.followMe {
+.follow-me {
     align-items: center;
     justify-content: center;
     flex-direction: column;
     display: flex;
 }
 
-.followText {
+.follow-text {
     color: #5a5957;
     margin-top: 140px;
     font-weight: 500;
     font-size: 25px;
 }
 
-.bottomFollow {
+.bottom-follow {
     background-color: #d07c7c;
     width: 62px;
     height: 4px;
     margin-top: 23px;
 }
 
-.socialMedia {
+.social-media {
     align-items: center;
     display: flex;
     justify-content: center;
     margin-top: 80px;
 }
 
-.socialMedia .pinterestLine, .instagramLine, .twitterLine, .googleLine, .tumblrLine {
+.social-media .pinterest-line, .instagram-line, .twitter-line, .google-line, .tumblr-line {
     margin: 0 50px 0 50px;
     justify-content: center;
     display: flex;
@@ -511,7 +504,7 @@ margin: 1vw 1vw 0 1vw;
     border-radius: 50%;
 }
 
-.instagramLine {
+.instagram-line {
     border-color: #d07c7c;
 }
 
@@ -530,16 +523,16 @@ margin: 1vw 1vw 0 1vw;
     flex-direction: column;
 }
 
-.angleUp {
+.angle-up {
     margin-top: 25px;
 }
 
-.mariaAnnaFooter {
+.maria-anna-footer {
     margin-top: 30px;
     font-size: 23px;
 }
 
-.contactMe {
+.contact-me {
     background-image: url(zdj/Architecture-picture.png);
     width: 100%;
     height: 693px;
@@ -550,12 +543,12 @@ margin: 1vw 1vw 0 1vw;
     background-size: cover;
 }
 
-.formContact {
+.form-contact {
     margin-top: 60px;
 
 }
 
-.formContact input, .formContact textarea {
+.form-contact input, .form-contact textarea {
     display: block;
     border-color: #d07c7c;
     width: 585px;
@@ -567,37 +560,37 @@ margin: 1vw 1vw 0 1vw;
     border-width: 1px;
 }
 
-.contactMeText {
+.contact-me-text {
     margin-top: 75px;
     font-size: 25px;
     font-weight: 300;
     color: #5a5957;
 }
 
-.bottomContact {
+.bottom-contact {
     background-color: #d07c7c;
     width: 60px;
     height: 3px;
     margin-top: 25px;
 }
 
-.claritasContact {
+.claritas-contact {
     font-size: 15px;
     font-weight: 200;
     margin-top: 25px;
     color: #848282;
 }
-.formContact textarea {
+.form-contact textarea {
     height: 135px;
     padding-top: 20px;
     resize: none;
 }
 
-.formContact input {
+.form-contact input {
     height: 50px;
 }
 
-.contactSend {
+.contact-send {
     align-items: center;
     display: flex;
     margin-top: 52px;
@@ -608,7 +601,7 @@ margin: 1vw 1vw 0 1vw;
     
 }
 
-.buttonSend {
+.button-send {
     background-color: #d07c7c;
     width: 140px;
     height: 50;
@@ -617,14 +610,14 @@ margin: 1vw 1vw 0 1vw;
     font-size: 16px;
 }
 
-.sendText {
+.send-text {
     margin-left: 30px;
     font-size: 15px;
     font-weight: 200;
     color: #848282;
 }
 
-.CopyRight {
+.Copy-right {
     font-size: 15px;
     font-weight: 200;
     color: #848282;
