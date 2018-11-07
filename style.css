@@ -147,7 +147,7 @@ nav h1 {
     padding-bottom: 6px;
 }
 
-.little-text {
+.about-me {
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -228,24 +228,40 @@ nav h1 {
     position: absolute;
     top: 0;
     left: 0;
+    border-left: 2px white solid;
+    width: 25px;
+    height: 25px; 
+    border-top: 2px white solid;
 }
 
 .corner2 {
     position: absolute;
     top: 0;
     right: 0;
+    border-right: 2px white solid;
+    width: 25px;
+    height: 25px; 
+    border-top: 2px white solid;
 }
 
 .corner3 {
     position: absolute;
     bottom: 0;
     left: 0;
+    border-left: 2px white solid;
+    width: 25px;
+    height: 25px; 
+    border-bottom: 2px white solid;
 }
 
 .corner4 {
     position: absolute;
     bottom: 0;
     right: 0;
+    border-right: 2px white solid;
+    width: 25px;
+    height: 25px; 
+    border-bottom: 2px white solid;
 }
 
 .nature-text, .people-text, .wedding-text, .urban-text, .architecture-text, .animals-text, .corners {
@@ -408,7 +424,7 @@ nav h1 {
     margin-bottom: 2px;
     margin-left: 2px;
     margin-right: 2px;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .red-dot {
@@ -454,24 +470,40 @@ nav h1 {
     position: absolute;
     top: 0;
     left: 0;
+    width: 15px;
+    height: 15px;
+    border-top: 1px black solid;
+    border-left: 1px black solid;
 }
 
 .corner-black2 {
     position: absolute;
     top: 0;
     right: 0;
+    width: 15px;
+    height: 15px;
+    border-top: 1px black solid;
+    border-right: 1px black solid;
 }
 
 .corner-black3 {
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 15px;
+    height: 15px;
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
 }
 
 .corner-black4 {
     position: absolute;
     bottom: 0;
     right: 0;
+    width: 15px;
+    height: 15px;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
 }
 
 .line1 {
