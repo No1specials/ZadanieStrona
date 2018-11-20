@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700,800');
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  margin: 1vw 13vw 0 13vw;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-pillow {
+  width: 50px;
+  height: 50px;
+  background-color: #363636;
+  color: white;
+  justify-content: center;
+  display: flex;
+  font-size: 45px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+
+.horizontal-line {
+  height: 2px;
+  border-bottom: 1px solid #d2d2d2;
+  border-top: 1px solid #d2d2d2;
+}
+
+.pillow {
+  display: flex;
+}
+
+.text {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.pillow-text {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.free-text {
+  color: #7c7c7c;
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.ut-text {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #3d3d3d;
+  font-family: 'Roboto Slab', serif;
+  max-width: 600px;
+  
+}
+
+.hamburger-lines {
+  width: 15px;
+  height: 12px;
+  border-top: 3px solid #ffffff;
+  position: relative;
+}
+
+.hamburger {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #363636;
+  border: 0;
+  align-self: flex-end;
+  margin: 13px 0 13px 0;
+}
+
+.hamburger-lines::before, .hamburger-lines::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 3px solid #ffffff;
+  width: 100%;
+  transform: translateY(3px);
+}
+
+.hamburger-lines::after {
+  transform: translateY(9px);
+}
+
+.landing-photo {
+  background-image: url(photos/landing-photo.png);
+  width: 100%;
+  height: calc(74vw * 0.56);
+  background-size: cover;
+}
+
+
