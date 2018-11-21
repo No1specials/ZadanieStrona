@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 
 *
@@ -12,6 +13,7 @@
 
 body {
   margin: 1vw 13vw 0 13vw;
+  height: 500%;
 }
 
 .landing {
@@ -106,6 +108,153 @@ body {
   width: 100%;
   height: calc(74vw * 0.56);
   background-size: cover;
+  margin-top: 25px;
 }
 
+.landing-text {
+  padding-top: 30%;
+  padding-left: 57%;
+  font-family: 'Roboto Slab', serif;
+  color: #363636;
+}
 
+.women {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.tunic {
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.view {
+  background-color: transparent;
+  width: 180px;
+  height: 50px;
+  border-color: black;
+  border-width: 1px;
+}
+
+.collections {
+  font-family: 'Roboto Slab', serif;
+
+}
+
+.collection-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.featured {
+  font-size: 19px;
+  font-weight: 600;
+  color: #363636;
+}
+
+.view-all {
+  font-size: 13px;
+  font-weight: 400;
+  color: #727272;
+}
+
+.photos-collection-text {
+  padding-top: 40px;
+  padding-left: 35px;
+}
+
+.photos-collection-title {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.view-collection {
+  font-size: 13px;
+  font-weight: 400;
+  color: #727272;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  width: 12px;
+  height: 1px;
+  background-color: #7b7b7b;
+  display: block;
+  position: relative;
+  margin-left: 8px;
+}
+
+.arrow::after {
+  content: "";
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid transparent;
+  border-left: 3px solid #7b7b7b;
+  position: absolute;
+  right: -3px;
+  top: -3px; 
+}
+
+.photos-collection {
+  display: grid;
+  grid-template-areas:
+  'jacket jacket shoes shoes'
+  'jacket jacket backpack glasses';
+  height: 575px;
+  grid-gap: 20px;
+}
+
+.jacket {
+  grid-area: jacket;
+  background-image: url(photos/jacket.png);
+  background-color: #f9f9f9;
+  background-position: 100% 100%;
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+
+.shoes {
+  grid-area: shoes;
+  background-image: url(photos/shoes.png);
+  background-size: cover;
+}
+
+.backpack {
+  grid-area: backpack;
+  background-image: url(photos/backpack.png);
+  background-size: cover;
+}
+
+.glasses {
+  grid-area: glasses;
+  background-image: url(photos/glasses.png);
+  background-size: cover;
+}
+
+.subscribe {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.subscribe-text {
+  margin-top: 95px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.duis-text {
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.subscribe form input {
+  width: 375px;
+  height: 60px;
+  margin-top: 45px;
+  padding-left: 20px;
+}
