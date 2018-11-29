@@ -3,6 +3,7 @@
 
 
 
+
 *
 {
   margin: 0;
@@ -13,7 +14,6 @@
 
 body {
   margin: 1vw 13vw 0 13vw;
-  height: 500%;
 }
 
 .landing {
@@ -109,6 +109,7 @@ body {
   height: calc(74vw * 0.56);
   background-size: cover;
   margin-top: 25px;
+  position: relative;
 }
 
 .landing-text {
@@ -160,6 +161,7 @@ body {
   font-size: 13px;
   font-weight: 400;
   color: #727272;
+  border-bottom: 1px solid #727272;
 }
 
 .photos-collection-text {
@@ -283,32 +285,37 @@ body {
 .product {
   display: flex;
   flex-direction: column;
+  margin: 0 10px 0 10px;
   width: 25%;
-  padding: 0 10px 0 10px;
+  position: relative;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product:first-of-type {
+  margin-left: 0;
+}
+
+.product:last-of-type {
+  margin-right: 0;
 }
 
 .tshirt-text {
   display: flex;
   justify-content: space-between;
   margin-top: 27px;
-  margin-bottom: 15px;
+  margin-bottom: 10px; 
 }
 
-.stars {
+.star {
   color: #b0b0b0;
 }
 
 .price {
   text-align: left;
   margin-bottom: 55px;
-}
-
-.product:first-of-type {
-  padding-left: 0;
-}
-
-.product:last-of-type {
-  padding-right: 0;
 }
 
 .check-tshirt {
@@ -336,4 +343,241 @@ body {
 
 .star {
   display: flex;
+}
+
+.stars {
+  color: #989898;
+}
+
+.more {
+  position: relative;
+}
+
+.more-text {
+  margin-top: 55px;
+  font-weight: 700;
+  font-size: 21px;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.advertisement {
+  display: flex;
+  font-family: 'Roboto Slab', serif;
+  justify-content: center;
+}
+
+.need-button {
+  border-bottom:4px solid #363636;
+  width: 40px;
+}
+
+
+.advertisement-need {
+  width: 415px;
+  margin-right: 35px;
+}
+
+.need-text {
+  font-size: 16px;
+  font-weight: 600;
+  margin-block-end: 0;
+  text-align: right;
+  position: relative;
+  margin-bottom: 30px;
+  color: #595959;
+  width: 415px;
+}
+
+.need-text::after {
+  content: "";
+  width: 40px;
+  background-color: #3d3d3d;
+  height: 3px;
+  position: absolute;
+  right: 0;
+  bottom: -18px;
+}
+
+.advertisement-quick {
+  text-align: left;
+  width: 415px;
+  margin-left: 35px;
+}
+
+.k3nnyar-text {
+  font-weight: 600;
+  color: #363636;
+  font-size: 12px;
+}
+
+.separator {
+  margin: 0 13px 0 13px;
+}
+
+.post-text {
+  text-align: right;
+  color: #8d8d8d;
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 45px;
+}
+
+.quick-text {
+  font-size: 16px;
+  font-weight: 600;
+  margin-block-end: 0;
+  text-align: left;
+  position: relative;
+  margin-bottom: 30px;
+  width: 370px;
+  color: #595959;
+}
+
+.quick-text::after {
+  content: "";
+  width: 40px;
+  background-color: #3d3d3d;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -18px;
+}
+
+.advertisement-quick .post-text {
+  text-align: left;
+}
+
+.more .horizontal-line {
+  margin-top: 60px;
+}
+
+.squares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  height: 8px;
+  width: 8px;
+  background-color: #d2d2d2;
+  transform: rotate(45deg);
+}
+
+.square-big {
+  width: 7px;
+  height: 7px;
+  transform: rotate(45deg);
+  margin: 0 10px 0 10px;
+  border: 2px solid #3d3d3d;
+}
+
+.social-media {
+  margin-top: 40px;
+  color: #595959;
+}
+
+.social-media .facebook {
+  margin: 0 15px 0 15px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-text {
+  font-weight: 500;
+  font-family: 'Roboto Slab', serif;
+  margin: 11px 0 11px 0;
+  text-align: center;
+}
+
+.woo-rockets {
+  font-weight: 800;
+}
+
+.arrow-left, .arrow-right {
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+}
+
+.arrow-left::before, .arrow-right::after, .arrow-left::after, .arrow-right::before {
+  content: "";
+  width: 12px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.arrow-left {
+  left: -25px;
+  top: 50%;
+}
+
+.arrow-right {
+  right: -25px;
+  top: 50%;
+  transform: rotate(180deg)
+}
+
+.arrow-left::before, .arrow-right::before {
+  transform: rotate(45deg);
+  left: -3px;
+  bottom: -180%
+}
+
+.arrow-left::after, .arrow-right::after {
+  transform: rotate(-45deg);
+  left: -3px;
+  bottom: 180%
+}
+
+.more .arrow-left {
+  top: 40%;
+  transform: translateX(30px);
+}
+
+.more .arrow-right {
+  top: 40%;
+  transform: rotate(180deg) translate(30px);
+}
+
+.information {
+  width: 85%;
+  height: 85%;
+  background-color: white;
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information-photo {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.information button {
+  width: 170px;
+  height: 50px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto Slab', serif;
+  background: transparent;
+  border: 1px solid black;
+  font-weight: 500;
+}
+
+.quick {
+  margin: 8px 0 8px 0;
 }
